@@ -28,3 +28,6 @@ e)Add the separate Header layout in the XML.
 
 f)Add app:headerLayout="@layout/nav_header" tag in the nav_drawer_layout in the XML.
   To get the header layout visible.
+
+g)<androidx.drawerlayout.widget.DrawerLayout
+   android:fitsSystemWindows="true"  // Use this to make the Navigation header show clearly.
