@@ -19,3 +19,12 @@ c)<com.google.android.material.navigation.NavigationView
 
  Note:-By using this tag <androidx.drawerlayout.widget.DrawerLayout   in we can see the preview
        tools:openDrawer="start"
+
+d)b)com.google.android.material.navigation.NavigationView
+ should be added at the end Tag in DrawerLayout or else it wont work.
+
+e)Add the separate Header layout in the XML.
+ android:theme="@style/ThemeOverlay.AppCompat.Dark"   Using this theme will make the Text color by default white.
+
+f)Add app:headerLayout="@layout/nav_header" tag in the nav_drawer_layout in the XML.
+  To get the header layout visible.
