@@ -4,15 +4,15 @@
         <item
             android:id="@+id/backkup"
             android:icon="@drawable/ic_backup_black_24dp"
-            android:title="inbox" />
+            android:title="BackUp" />
         <item
             android:id="@+id/lens"
             android:icon="@drawable/ic_color_lens_black_24dp"
-            android:title="lens" />
+            android:title="Color Lens" />
         <item
             android:id="@+id/grade"
             android:icon="@drawable/ic_grade_black_24dp"
-            android:title="inbox" />
+            android:title="Grade" />
     </group>
 
 

@@ -60,6 +60,9 @@ i.2) Making the status bar Transperent
       android:fitsSystemWindows="true"  If we use this tag means it will show transperent.Do some R & D on this..
       Find wat this attribute will do..
 
+j)Addition of Fragment on NavigationDrawer Click.
+      Note:-<com.google.android.material.navigation.NavigationView
+       Should be added at the end so that click event will work.
 
 
 

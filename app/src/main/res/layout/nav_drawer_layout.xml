@@ -21,6 +21,7 @@
    b)com.google.android.material.navigation.NavigationView should be added at the end Tag or else it wont work.
     -->
     <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navView"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         app:menu="@menu/nav_items"
